@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to top, #a3b7d6, #95aecc, #87a5c2, #7a9cb8, #6c93ad, #5c87a5, #4b7c9e, #3a7096, #255e8e, #174c85, #143979, #1b256b);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  text-align: center;
+}
+
+form{
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button{
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  background: white;
+  border-style: solid;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+.select{
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+select{
+  color: #ff6f47;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 12rem;
+}
+
+.todo{
+  width: 300px;
+  padding: 10px 0 10px 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.todo-item{
+  text-align: center;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity: .5;
+}
+
+.btnCheck{
+  margin: 10px 5px;
+  padding: 5px;
+  border: none;
+  border-style: solid;
+  background-color: green;
+}
+
+.btnDelete{
+  padding: 5px;
+  border: none;
+  border-style: solid;
+  background-color: red;
+}
+
+.todo-button{
+  padding: 0.25rem 1rem;
+  margin:  0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-todo{
+  padding: 0rem, 0.5rem;  
+}
